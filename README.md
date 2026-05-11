@@ -24,19 +24,16 @@ A solução foi construída sobre a **Google Cloud Platform**, garantindo escala
 ## 📊 Visualização do Dashboard
 
 ### Página 1: Visão Executiva (KPIs Globais)
-![Página 1](./assets/images/dash_pag1.png)
-*Destaque para a jornada mensal de leitura e o funil de conversão de mundos favoritos.*
+![Página 1](./assets/images/resumo_literario_visao_geral.png)
+*Destaque para a jornada mensal de leitura.*
 
 ### Página 2: Detalhes e Curadoria
-![Página 2](./assets/images/dash_pag2.png)
-*Tabela interativa com filtros cruzados por autor e gênero.*
+![Página 2](./assets/images/resumo_literario_tesouros_lidos.png)
+*Tabela interativa com possibilidade de busca por nome do autor.*
 
-## 📂 Como Replicar
-1. Configure o bucket no **Cloud Storage**.
-2. Execute os scripts em `src/sql/raw/` para mapear as tabelas.
-3. Chame a procedure de orquestração:
-   ```sql
-   call `seu-projeto.dataset.sp_orchestrator_habitos_leitura`();
+### Página 3: Comparativo interativo
+![Página 2](./assets/images/resumo_literario_tesouros_lidos.png)
+*Inteligencia ao comparar um determinado periodo por um período anterior.*
 
 ---
 ```text
