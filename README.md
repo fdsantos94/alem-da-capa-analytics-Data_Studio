@@ -41,16 +41,10 @@ A solução foi construída sobre a **Google Cloud Platform**, garantindo escala
 📂 src/                        # Código fonte puro
 │   📂 sql/
 │   │   📂 raw/                # Definições de External Tables
-│   │   📂 refined/            # Views de limpeza e tipagem
-│   │   📂 analytics/          # Views finais e KPIs para o Looker
-│   📂 routines/               # Stored Procedures e TVFs (Rotinas)
+│   │   📂 refined/            # Definições da Refined Tables
+│   │   📂 analytics/          # View final e KPIs para o Looker
+│   📂 routines/               # Stored Procedures Orquestradoras
 │       ├── sp_orchestrator.sql
-│       └── get_favoritos.sql
 📂 assets/                     # Identidade visual e evidências
 │   📂 images/                 # Prints do Dashboard (Página 1, 2 e 3)
-│   📂 diagrams/               # Desenho da arquitetura GCP
-📂 docs/                       # Documentação técnica e manual
-│   ├── dicionario_dados.md     # O que cada coluna significa
-│   └── manual_tecnico.md       # Passo a passo do setup no GCP
-📂 dist/                       # Scripts prontos para deploy (ex: .sql compilados)
 └── README.md                   # Cartão de visitas do projeto
