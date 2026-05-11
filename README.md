@@ -25,15 +25,15 @@ A solução foi construída sobre a **Google Cloud Platform**, garantindo escala
 
 ### Página 1: Visão Executiva (KPIs Globais)
 ![Página 1](./assets/images/resumo_literario_visao_geral.png)
-*Destaque para a jornada mensal de leitura.*
+*Distribuição mensal de volume que permite a identificação de picos de produtividade e padrões cíclicos de leitura ao longo do ano.*
 
 ### Página 2: Detalhes e Curadoria
 ![Página 2](./assets/images/resumo_literario_tesouros_lidos.png)
-*Tabela interativa com possibilidade de busca por nome do autor.*
+*Implementação de tabela interativa que integra URLs dinâmicas para exibição de capas e autores, unindo rigor técnico de dados com uma interface visual rica.*
 
 ### Página 3: Comparativo interativo
 ![Página 2](./assets/images/evolucao_anual.png)
-*Inteligencia ao comparar um determinado periodo por um período anterior.*
+*Implementação de lógica comparativa que revela a saúde do hábito literário, permitindo uma leitura rápida de crescimento ou queda de produtividade.*
 
 ---
 ```text
