@@ -39,7 +39,7 @@ A solução foi construída sobre a **Google Cloud Platform**, garantindo escala
    call `seu-projeto.dataset.sp_orchestrator_habitos_leitura`();
 
 ---
-
+```text
 /
 ├── src/                        # Código fonte puro
 │   ├── sql/
