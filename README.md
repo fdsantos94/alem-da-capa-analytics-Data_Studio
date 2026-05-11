@@ -37,7 +37,6 @@ A solução foi construída sobre a **Google Cloud Platform**, garantindo escala
 
 ---
 ```text
-/
 📂 src/                        # Código fonte puro
 │   📂 sql/
 │   │   📂 raw/                # Definições de External Tables
