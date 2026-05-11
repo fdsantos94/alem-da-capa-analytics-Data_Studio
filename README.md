@@ -32,7 +32,7 @@ A solução foi construída sobre a **Google Cloud Platform**, garantindo escala
 *Tabela interativa com possibilidade de busca por nome do autor.*
 
 ### Página 3: Comparativo interativo
-![Página 2](./assets/images/resumo_literario_tesouros_lidos.png)
+![Página 2](./assets/images/evolucao_anual.png)
 *Inteligencia ao comparar um determinado periodo por um período anterior.*
 
 ---
