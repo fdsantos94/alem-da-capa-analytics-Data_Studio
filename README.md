@@ -18,7 +18,15 @@ A solução foi construída sobre a **Google Cloud Platform**, garantindo escala
     * **Orquestração:** Procedure mestre (`sp_orquestrador`) para execução sequencial do pipeline.
 4.  **Visualização (BI):** Dashboard executivo no **Data Studio**.
 
-### 2. Inteligência de BI
+## 💰 Estimativa de Custos e FinOps
+
+A arquitetura foi projetada seguindo os princípios de eficiência de custo, operando integralmente dentro do **GCP Free Tier** para este volume de dados:
+
+- **BigQuery:** Processamento otimizado via filtragem de partições e seleção estrita de colunas. Custo estimado: $0,00 (Consumo < 1TB/mês).
+- **Cloud Storage:** Armazenamento em classe Standard na região `us-central1`. Custo estimado: < $0,01/mês.
+- **Monitoramento:** Configuração de orçamentos e alertas (Cloud Billing) para garantir a governança financeira do projeto.
+
+### Inteligência de BI
 - **UX Dinâmica:** Injeção de metadados visuais (capas de livros e fotos de autores) via URL diretamente no dashboard.
 
 ## 📊 Visualização do Dashboard
