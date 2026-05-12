@@ -1,11 +1,11 @@
-CREATE OR REPLACE PROCEDURE `fernando-data-lab.habitos_leitura_refined.sp_refined_main`()
+CREATE OR REPLACE PROCEDURE `<PROJECT_ID>.<DATASET>.sp_refined_main`()
 begin
 
-  call `fernando-data-lab.habitos_leitura_refined.sp_tb_autor` ();
-  call `fernando-data-lab.habitos_leitura_refined.sp_tb_editora` ();
-  call `fernando-data-lab.habitos_leitura_refined.sp_tb_formato` ();
-  call `fernando-data-lab.habitos_leitura_refined.sp_tb_genero` ();
-  call `fernando-data-lab.habitos_leitura_refined.sp_tb_nacionalidade` ();
-  call `fernando-data-lab.habitos_leitura_refined.sp_tb_livros` ();
+  call `<PROJECT_ID>.<DATASET>.sp_tb_autor` ();
+  call `<PROJECT_ID>.<DATASET>.sp_tb_editora` ();
+  call `<PROJECT_ID>.<DATASET>.sp_tb_formato` ();
+  call `<PROJECT_ID>.<DATASET>.sp_tb_genero` ();
+  call `<PROJECT_ID>.<DATASET>.sp_tb_nacionalidade` ();
+  call `<PROJECT_ID>.<DATASET>.sp_tb_livros` ();
 
 end;

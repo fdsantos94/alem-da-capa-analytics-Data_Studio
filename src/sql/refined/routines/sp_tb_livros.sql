@@ -1,7 +1,7 @@
 begin
 
   -- criando a tabela definitiva de livros com dados limpos
-  create or replace table `fernando-data-lab.habitos_leitura_refined.tb_livros` as
+  create or replace table `<PROJECT_ID>.<DATASET>.tb_livros` as
 
   select
     id_livro
@@ -20,6 +20,6 @@ begin
     ,id_formato
     ,abandono
     ,capa_livro
-  from `fernando-data-lab.habitos_leitura_raw.ext_tb_livros`;
+  from `<PROJECT_ID>.<DATASET>.ext_tb_livros`;
 
 end

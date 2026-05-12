@@ -1,7 +1,7 @@
 begin
 
   -- criando a tabela externa mapeada para o storage
-  create or replace external table `fernando-data-lab.habitos_leitura_raw.ext_tb_nacionalidade`
+  create or replace external table `<PROJECT_ID>.<DATASET>.ext_tb_nacionalidade`
     (
       id_nacionalidade int64
       ,nacionalidade string
@@ -9,7 +9,7 @@ begin
   options 
     (
       format = 'csv'
-      ,uris = ['gs://datalake-habitos-leitura/raw/tb_nacionalidade.csv']
+      ,uris = ['gs://datalake.../tb_nacionalidade.csv']
       ,encoding = 'ISO-8859-1'
       ,skip_leading_rows = 1
       ,field_delimiter = ';'
@@ -18,6 +18,6 @@ begin
   -- testando a leitura
   --select 
   --  *
-  --from `fernando-data-lab.habitos_leitura_raw.ext_tb_nacionalidade`;
+  --from `<PROJECT_ID>.<DATASET>.ext_tb_nacionalidade`;
 
 end
