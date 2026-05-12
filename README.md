@@ -26,6 +26,8 @@ A arquitetura foi projetada seguindo os princípios de eficiência de custo, ope
 - **Cloud Storage:** Armazenamento em classe Standard na região `us-central1`. Custo estimado: < $0,01/mês.
 - **Monitoramento:** Configuração de orçamentos e alertas (Cloud Billing) para garantir a governança financeira do projeto.
 
+---
+
 ### Inteligência de BI
 - **UX Dinâmica:** Injeção de metadados visuais (capas de livros e fotos de autores) via URL diretamente no dashboard.
 
