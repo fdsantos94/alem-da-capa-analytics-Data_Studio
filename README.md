@@ -7,6 +7,17 @@
 ## 📌 Visão Geral
 Este projeto simula uma arquitetura de dados corporativa end-to-end aplicada a um dataset pessoal de leituras. O objetivo foi transformar dados brutos (CSV) em insights estratégicos, utilizando as melhores práticas de **Engenharia de Dados** e **MIS**.
 
+### 📝 Do Analógico ao Digital: O Desafio de MIS
+
+O ponto de partida deste projeto foi uma agenda física, onde os registros de leitura eram documentados manualmente. Embora os dados existissem, eles sofriam com a **descentralização** e a **dificuldade de análise**. 
+
+Não era possível identificar tendências de gênero, picos de produtividade mensal ou a evolução das avaliações sem um esforço manual de consolidação.
+
+![Transformação Digital: Agenda de Leitura vs Dashboard Automático](./assets/images/transformacao_digital.png)
+
+A pipeline construída **automaticamente** ingere, limpa e orquestra esses dados no BigQuery, disponibilizando-os de forma granular no Looker Studio. Isso transformou um diário pessoal em um **Framework Analítico de Alta Fidelidade**, permitindo uma visão executiva e estratégica da jornada literária.
+
+---
 ## 🏗️ Arquitetura Técnica (GCP Stack)
 
 A solução foi construída sobre a **Google Cloud Platform**, garantindo escalabilidade e baixa manutenção:
@@ -32,6 +43,7 @@ A arquitetura foi projetada seguindo os princípios de eficiência de custo, ope
 - **UX Dinâmica:** Injeção de metadados visuais (capas de livros e fotos de autores) via URL diretamente no dashboard.
 
 ## 📊 Visualização do Dashboard
+
 
 ### Página 1: Visão Executiva (KPIs Globais)
 ![Página 1](./assets/images/resumo_literario_visao_geral.png)
