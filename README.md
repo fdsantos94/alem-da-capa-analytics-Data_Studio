@@ -1,6 +1,6 @@
 # Além da Capa: Pipeline Analítico de Hábitos Literários 📚
 
-![Status do Projeto](https://img.shields.io/badge/Status-Em_Andamento-yellow?style=for-the-badge)
+![Status do Projeto](https://img.shields.io/badge/Status-Em_Andamento-purple)
 ![GCP](https://img.shields.io/badge/Google_Cloud_Platform-BigQuery-blue)
 ![Looker](https://img.shields.io/badge/Looker_Studio-Visualização-yellow)
 
